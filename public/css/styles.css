@@ -1,0 +1,347 @@
+html {
+    margin:0;
+    padding:0
+}
+
+#fLogin {
+    border: 3px solid #f1f1f1;
+}
+
+#fLogin input[type=text], #fLogin input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 1% 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#fLogin .submit {
+    background-color: green;
+    color: white;
+    margin: 2% 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+#fLogin .imgcontainer {
+    text-align: center;
+    margin: 5% 0 2% 0;
+}
+
+#fLogin img.headshot {
+    width: 40%;
+    border-radius: 50%;
+}
+
+#fLogin .container {
+    padding: 2%;
+}
+
+h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2%;
+}
+
+.subtitle
+{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    padding:10px 0 20px 20px; 
+    font-size:18px; 
+    font-weight:bold;
+}
+
+.hidden
+{
+    display: none;
+}
+
+form
+{
+    width: 650px;
+    margin: 0 auto;
+    line-height:28px;
+}
+
+.notice
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color:red; 
+    padding-bottom: 10px; 
+    text-align: center;
+    display: none;
+}
+
+.sectionTable
+{
+    width: 100%;
+    background-color:#f2f2f2;
+    padding-bottom:20px;
+    border:1px solid black;
+}
+
+.patchTable
+{
+    width:90%;
+    margin: 0 5% 0 5%;
+    background-color:white;
+    padding:2px 20px 10px 20px;
+}
+
+.patchTable tr
+{
+    text-align: left;
+}
+
+.patchTable .asterisk
+{
+    color:red; 
+    padding-left:3px;
+}
+
+.patchTable .link
+{
+    color: #0080ff; 
+    text-decoration: none;
+}
+
+.patchTable .leftSpace
+{
+    padding-left: 10%;
+}
+
+.patchTable .leftRightSpace
+{
+    padding: 0 5% 0 5%;
+}
+
+.addBtn
+{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    text-align: center;
+    font-size:14px;
+    font-weight:bold;
+    height:35px;
+    line-height:30px;
+    background: green;
+    color:white;
+}
+
+.removeBtn
+{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    text-align: center;
+    font-size:14px;
+    font-weight:bold;
+    height:35px;
+    line-height:30px;
+    background: red;
+    color:white;
+}
+
+.submit
+{
+    width:30%; 
+    margin: 20px 35% 20px 35%;
+    height:40px; 
+    font-size: 18px; 
+    float: none;
+}
+
+.patchTable select {
+    position: relative;
+    z-index: 2;
+    float: left;
+    padding-left: 6px;
+    width: 100%;
+    margin-bottom: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    height:30px; 
+    line-height:30px;
+}
+
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+input {
+    position: relative;
+    z-index: 2;
+    float: left;
+    padding-left: 10px;
+    margin-bottom: 0;
+    display: table-cell;
+    border: 1px solid #ccc;
+    margin: 0;
+    line-height: 2;
+}
+
+.input-group-addon.prefix {
+    border-radius: 4px 0px 0px 4px;
+    border-right: 0;
+}
+
+.input-group-addon.suffix {
+    border-radius: 0px 4px 4px 0px;
+    border-left: 0;
+}
+
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+
+.container
+{
+    position: relative;
+}
+
+.container .input
+{
+position: absolute;
+top: 0;
+left: 0;
+z-index: 999;
+padding: 0;
+margin: 0;
+}
+
+.container .select
+{
+position: absolute;
+top: 0;
+left: 0;
+padding: 0;
+margin: 0;
+}
+
+.linkBlueNoUnderLine
+{
+    color: blue;
+    text-decoration: none;
+}
+
+.linkBlackNoUnderLine
+{
+    color: black;
+    text-decoration: none;
+}
+
+.leftSpace4
+{
+    padding-left: 4%;
+}
+
+.tracking_block
+{
+    padding-bottom: 20px;
+}
+
+.tracking_block div
+{
+    line-height: 28px;
+}
+
+.fontBold
+{
+    font-weight: bold;
+}
+
+.font18
+{
+    font-size:18px;
+}
+
+.saksTable
+{
+    font-size: 18px;
+}
+
+.saksProductTitle
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+
+.saksCurrentPrice
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    padding-bottom: 2%;
+}
+
+.saksLeftSpaceCol
+{
+    padding-left: 2%;
+}
+
+.saksInstruction
+{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    padding: 10px 0 20px 40px; 
+    font-size:18px; 
+    font-weight:bold;
+}
+
+.hermesInstruction
+{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    padding: 10px 0 20px 40px; 
+    font-size:18px; 
+    font-weight:bold;
+}
+
+.hermes_block
+{
+    padding-bottom: 20px;
+}
+
+.hermes_block div
+{
+    line-height: 28px;
+}
+
+#hermes
+{
+    padding-top:20px;
+}
+
+.absolute
+{
+    position: absolute;
+}
+
+.btnBlock
+{
+    margin-bottom: 50px;
+}

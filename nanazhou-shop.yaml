@@ -1,0 +1,10 @@
+runtime: php73
+
+instance_class: F4
+
+handlers:
+- url: /css
+  static_dir: public/css
+
+- url: /js
+  static_dir: public/js
